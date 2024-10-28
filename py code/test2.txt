@@ -1,0 +1,8 @@
+tu=input()
+kem=input()
+if( tu > kem ):
+   print("Tu la anh")
+elif ( tu < kem ):
+   print("Kem la anh")
+else:
+   print(" 2 anh em sinh doi ")

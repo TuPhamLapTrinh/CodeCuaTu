@@ -1,0 +1,4 @@
+usd=input()
+vnd=0
+usd=vnd*23000
+print(usd)

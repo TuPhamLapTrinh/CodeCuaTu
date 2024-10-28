@@ -1,0 +1,6 @@
+tentuoi="Pham Anh Tu"
+namsinh="24/8/2007"
+truonghoc="THPT HOA LU A "
+lophoc="10a2"
+print( tentuoi + namsinh + truonghoc + lophoc )
+print(line)

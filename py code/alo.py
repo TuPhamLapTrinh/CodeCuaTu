@@ -1,0 +1,8 @@
+a=input()
+b=input()
+u=input()
+v=input()
+x=input()
+y=input()
+int(so_tien=(a+u)*(x-y)+(b+v)*y))
+print(" Tổng số tiền vé: " + str(so_tien) + "nghìn đồng")

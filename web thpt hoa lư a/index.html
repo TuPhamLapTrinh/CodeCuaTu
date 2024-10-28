@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trường THPT Hoa Lư A</title>
+
+    <!-- Meta tags cho SEO -->
+    <meta name="description" content="Trường THPT Hoa Lư A - Nơi khởi nguồn cho sự phát triển toàn diện của học sinh.">
+    <meta name="keywords" content="THPT Hoa Lư A, trường học, giáo dục, Ninh Bình, ngoại khóa, học sinh, tin tức, sự kiện">
+    <meta property="og:title" content="Trường THPT Hoa Lư A">
+    <meta property="og:description" content="Trường THPT Hoa Lư A - Cơ sở giáo dục hàng đầu tại Ninh Bình.">
+    <meta property="og:image" content="images/hero_image.jpg">
+    <meta property="og:url" content="https://hoalua.edu.vn">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Link to external CSS and Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- Progressive Web App - Service Worker -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0056b3">
+</head>
+
+<body>
+    <!-- Đăng Nhập Section -->
+    <section 
+        id="login" class="bg-light section">
+        <div class="container">
+        <h2>Đăng Nhập</h2>
+        <form class="login-form" id="login-form">
+            <div class="form-group">
+                <label for="username">Tài Khoản:</label>
+                <input type="text" id="username" name="username" required placeholder="Nhập tài khoản của bạn">
+            </div>
+            <div class="form-group">
+                <label for="password">Mật Khẩu:</label>
+                <input type="password" id="password" name="password" required placeholder="Nhập mật khẩu của bạn">
+            </div>
+            <button type="submit">Đăng Nhập</button>
+        </form>
+        </div>
+    </section>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="navbar" class="sticky glassmorphism">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Trường THPT Hoa Lư A">
+                <h1>Trường THPT Hoa Lư A</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#news">Tin tức</a></li>
+                    <li class="dropdown">
+                        <a href="#activities">Hoạt động</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#sports">Thể thao</a></li>
+                            <li><a href="#clubs">Câu lạc bộ</a></li>
+                            <li><a href="#events">Sự kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Parallax Effect -->
+    <section id="hero">
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/campus.jpg" alt="Cơ sở trường THPT Hoa Lư A" loading="lazy">
+            </div>
+        </div>
+        <div class="hero-text glassmorphism">
+            <h2 data-aos="fade-up">Chào mừng các bạn đến với Trường THPT Hoa Lư A</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Chất lượng - Đào tạo - Giáo Dục <p>
+            <a href="#about" class="btn" data-aos="fade-up" data-aos-delay="400">Tìm hiểu thêm</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container" data-aos="fade-right">
+            <h2>Giới thiệu về trường</h2>
+            <div class="about-grid">
+                <div class="about-item glassmorphism" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Chất lượng giảng dạy</h3>
+                    <p>Đội ngũ giáo viên tại trường đều có trình độ chuyên môn cao...</p>
+                </div>
+                <div class="about-item glassmorphism" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Cơ sở vật chất</h3>
+                    <p>Trường được trang bị đầy đủ các phòng học hiện đại...</p>
+                </div>
+                <div class="about-item glassmorphism" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Hoạt động ngoại khóa</h3>
+                    <p>Trường thường xuyên tổ chức các hoạt động ngoại khóa...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section with Modal -->
+    <section id="news" class="section bg-light">
+        <div class="container">
+            <h2 data-aos="fade-left">Tin tức mới nhất</h2>
+            <div class="news-grid" data-aos="fade-up" data-aos-delay="200">
+                <article>
+                    <h3>Học sinh trường đạt thành tích xuất sắc...</h3>
+                    <p>Trong kỳ thi THPT năm 2024...</p>
+                    <a href="#" class="open-modal" data-modal="news1">Xem thêm</a>
+                </article>
+                <article>
+                    <h3>Hoạt Động Trải Nghiệm Hướng Nghiệp...</h3>
+                    <p>Trường tổ chức các hoạt động ngoại khóa...</p>
+                    <a href="#" class="open-modal" data-modal="news2">Xem thêm</a>
+                </article>
+                <article>
+                    <h3>Lễ kỷ niệm 20 năm ngày ra trường của các cựu học sinh khóa k30...</h3>
+                    <p>Lễ kỷ niệm được tổ chức hoành tráng...</p>
+                    <a href="#" class="open-modal" data-modal="news3">Xem thêm</a>
+                </article>
+            </div>
+        </div>
+
+        <!-- Modal Popup -->
+        <div class="modal" id="news1">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Chi tiết về thành tích xuất sắc</h3>
+                <p>Thông tin chi tiết về các thành tích...</p>
+            </div>
+        </div>
+
+        <div class="modal" id="news2">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Chi tiết về chương trình ngoại khóa</h3>
+                <p>Nội dung chi tiết về chương trình...</p>
+            </div>
+        </div>
+
+        <div class="modal" id="news3">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Lễ kỷ niệm ngày ra trường k30</h3>
+                <p>Chi tiết về sự kiện đặc biệt này...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Map -->
+    <section id="contact" class="section bg-light">
+        <div class="container" data-aos="zoom-in">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form class="contact-form" action="#" method="POST">
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Tin nhắn:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit" class="btn">Gửi liên hệ</button>
+            </form>
+
+            <!-- Google Map Embed -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0251848018526!2d105.84117131548424!3d21.02851159325796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8c12345678:0x123456789abcdef!2sTHPT%20Hoa%20L%C6%B0%20A!5e0!3m2!1svi!2s!4v1603064523593!5m2!1svi!2s" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Trường THPT Hoa Lư A. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/HoaLuAHighSchool">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@THPTHoaLuA">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Script files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

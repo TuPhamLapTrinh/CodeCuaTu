@@ -1,0 +1,20 @@
+.blue{
+    color : steelblue;
+}
+.red
+{
+    color: darkred;
+}
+.orangered
+{
+    font-family: "Verdana";
+    font-size: 25px;
+    color:orangered;
+}
+input.yellow
+{
+    background-color: yellow;
+}
+input.blue{
+    background-color: blue; color: black;
+}

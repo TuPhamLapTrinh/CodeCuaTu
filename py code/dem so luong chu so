@@ -1,0 +1,6 @@
+# đếm số lượng chữ số...
+a=string(input())
+if s[0]="-" :
+	print(a.size()-1)
+else :
+	print(a.size())
